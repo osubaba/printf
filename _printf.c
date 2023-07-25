@@ -3,9 +3,9 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Custom printf function.
+ * _printf - printf function.
  * @format: Format string.
- * Return: Number of characters printed.
+ * Return: Number characters printed.
  */
 int _printf(const char *format, ...)
 {
@@ -55,8 +55,8 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Prints buffer contents if it exists.
- * @buffer: The array of characters.
+ * print_buffer - Prints buffer contents if they exists.
+ * @buffer: array of characters.
  * @buff_ind: Index at which the characters represent the length.
  */
 void print_buffer(char buffer[], int *buff_ind)
